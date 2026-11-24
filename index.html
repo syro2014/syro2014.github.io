@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amaro Moreno Marco Antonio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/bxs-music.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Feria del mollete 2026</div>
+            <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#artistas">Artistas</a></li>
+                <li><a href="#entradas">Entradas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Feria del mollete  2026</h1>
+            <p>La feria menos esperada del año</p>
+            <button class="cta-button">Comprar entradas</button>
+        </section>
+
+        <section id="artistas">
+            <h2>Artistas destacados</h2>
+            <div class="artistas-grid">
+                <div class="artista-card">
+                    <img src="img/01.jpg" alt="Aphex Twin">
+                    <h3>Aphex Twin</h3>
+                    <p>IDM (intelligent dance music), ambient, techno y drum and bass</p>
+                    <p class="desc_artis">El productor irlandés Richard D. James, pionero de la electrónica de vanguardia desde los años 90, vuelve a participar en un concierto </p>
+                </div>
+                <div class="artista-card">
+                    <img src="img/02.jpg" alt="Jose Jose">
+                    <h3>José José</h3>
+                    <p>Baladas, boleros, pop latino,etc</p>
+                    <p class="desc_artis">"El Príncipe de la Canción", su legado con una interpretación poderosa y una técnica vocal impresionante vuelve para un gran concierto en la feria del mollete (trajimos su espiritu para este concierto).</p>
+                </div>
+
+                <div class="artista-card">
+                    <img src="img/03.jpg" alt="King Crimson">
+                    <h3>King Crimson</h3>
+                    <p>Rock progresivo, Art rock, rock experimental, new wave y rock industrial</p>
+                    <p class="desc_artis">Fundada en Londres en 1968 bajo el liderazgo de Robert Fripp, siendo uno de los primeros grupos de rock progresivo vuelve a reunir a todos sus integrantes para este concierto de la feria del mollete.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="entradas">
+            <h2>Tipo de entradas</h2>
+            <div class="entradas-grid">
+                <div class="entrada-card">
+                    <h3>Entrada basica</h3>
+                    <p class="precio">$1200</p>
+                    <ul>
+                        <li>Acceso al festival</li>
+                        <li>Molletes</li>
+                        <li>Conciertos Principales</li>
+                        <li>Area general</li>
+                    </ul>
+                    <button>Comprar</button>
+                </div>
+
+                <div class="entrada-card destacada">
+                    <h3>Entrada VIP</h3>
+                    <p class="precio">$2000</p>
+                    <ul>
+                        <li>Acceso VIP</li>
+                        <li>Molletes con jamon o tocino</li>
+                        <li>Entrevistas con los artistas</li>
+                        <li>Area VIP</li>
+                    </ul>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content" id="contacto">
+            <div class="footer-section">
+                <h4>contactos</h4>
+                <p>email: marco.0000709@gmail.com</p>
+                <p>Tel: 244 100 5966</p>   
+            </div>
+            <div class="footer-section">
+                <h4>Sigue a los artistas</h4>
+
+                <div class="social-links">
+                    <p>Aphex Twin</p>
+                    <a href="https://x.com/AphexTwin" target="_blank"><img src="img/bxl-twitter.svg" alt=""></a>
+                    <a href="https://www.youtube.com/@aphextwin9341" target="_blank"><img src="img/bxl-youtube.svg" alt=""></a>
+
+                    <p>José José</p>
+                    <a href="https://x.com/JoseJoseOficial" target="_blank"><img src="img/bxl-twitter.svg" alt=""></a>
+                    <a href="https://www.youtube.com/channel/UCSPwNgHHyAtHanVaGN2LLWA" target="_blank"><img src="img/bxl-youtube.svg" alt=""></a>
+
+                    <p>King Crimson</p>
+                    <a href="https://x.com/DGMHQ?lang=es" target="_blank"><img src="img/bxl-twitter.svg" alt=""></a>
+                    <a href="https://www.youtube.com/channel/UCBxEf1UWDjbIEoh2MAQR7zQ" target="_blank"><img src="img/bxl-youtube.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-form">
+        <h4>Danos a conocer tus expectativas sobre esta feria</h4>
+        <form action="https://formspree.io/f/xjygrppp" method="POST" class="form-feria">
+            
+            <input type="text" placeholder="Escribe tu opinion" name="opinion">
+            
+            <div class="grupo-opciones">
+                <p>¿Ya has ido a la feria del mollete?</p>
+                <div class="opciones-radio">
+                    <label><input type="radio" name="visita previa" value="Si"> Sí</label>
+                    <label><input type="radio" name="visita previa" value="No"> No</label>
+                </div>
+            </div>
+
+            <div class="grupo-opciones">
+                <p>¿Qué días planeas asistir?</p>
+                <ul class="opciones-checkbox">
+                    <li><label><input type="checkbox" name="dias a visitar" value="Viernes"> Viernes</label></li>
+                    <li><label><input type="checkbox" name="dias a visitar" value="Sábado"> Sábado</label></li>
+                    <li><label><input type="checkbox" name="dias a visitar" value="Domingo"> Domingo</label></li>
+                </ul>
+            </div>
+
+            <input type="email" placeholder="Escribe tu correo" name="email">
+            <input type="submit" class="cta-button" value="Enviar">
+        </form>
+    </div>
+        <div class="footer-button">
+            <p>&copy Feria del mollete 2026 | Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
